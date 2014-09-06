@@ -1,0 +1,5 @@
+login:
+  qq_connect_client_id:
+    default: ''
+  qq_connect_client_secret:
+    default: ''

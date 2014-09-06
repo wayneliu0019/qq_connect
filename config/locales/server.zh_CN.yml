@@ -1,0 +1,6 @@
+# encoding: utf-8
+
+zh_CN:
+  site_settings:
+    qq_connect_client_id: "QQ 帐号验证的客户端帐号（Client id），到 http://connect.qq.com/ 来注册获取"
+    qq_connect_client_secret: "QQ 帐号验证的客户端密码（Client secret），到 http://connect.qq.com/ 来注册获取"
