@@ -1,6 +1,6 @@
 # name: QQ connect
 # about: Authenticate with discourse with qq connect.
-# version: 0.1.0
+# version: 0.1.1
 # author: Erick Guan
 
 gem 'omniauth-qq', '0.3.0'
@@ -48,8 +48,8 @@ class QQAuthenticator < ::Auth::Authenticator
   end
 end
 
-auth_provider :frame_width => 920,
-              :frame_height => 800,
+auth_provider :frame_width => 760,
+              :frame_height => 500,
               :authenticator => QQAuthenticator.new,
               :background_color => '#51b7ec'
 

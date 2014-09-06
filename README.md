@@ -20,3 +20,6 @@ Go to Site Settings's login category, fill in the client id and client secret.
 
 进入站点设置的登录分类，填写 client id 和 client serect。
 
+## Changelog
+
+Current version: 0.1.1
