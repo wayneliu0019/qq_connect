@@ -27,3 +27,12 @@ Go to Site Settings's login category, fill in the client id and client secret.
 ## Changelog
 
 Current version: 0.1.1
+
+
+<img src="https://meta.discourse.org/uploads/default/34493/dc792b8ba0ca145a.png" width="690" height="386">
+
+<img src="https://meta.discourse.org/uploads/default/34492/62b8bfde277857af.png" width="690" height="312">
+
+<img src="https://meta.discourse.org/uploads/default/34494/ea6c21600bd68279.png" width="690" height="330">
+
+<img src="https://meta.discourse.org/uploads/default/34495/eaf2d4fae5f6a64c.png" width="690" height="313">
