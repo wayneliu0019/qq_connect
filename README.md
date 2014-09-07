@@ -9,6 +9,7 @@ Authenticate with discourse with qq connect.
 1. 登录 [QQ Connect](http://connect.qq.com/)，注册填写相关信息。
 2. 进入`管理中心`，点击`创建应用`，选择`网站`。
 3. 填写相关信息。`网站地址`应填写论坛所处的位置。`回调地址`应填写根域名位置。如图所示。（验证所需要的标签可在 Discourse 设置中插入，验证后即可删除）
+4. 找到刚申请到的应用，在左上角找到`id`和`key`，分别填入 Discourse 设置中的 `client_key` 和 `client_secret`。
 
 <img src="https://meta.discourse.org/uploads/default/34523/414f622b202bba06.png" width="583" height="500"> 
 
@@ -33,6 +34,8 @@ Go to Site Settings's login category, fill in the client id and client secret.
 进入站点设置的登录分类，填写 client id 和 client serect。
 
 ## Issues / 问题
+
+Visit [topic on Discourse Meta](https://meta.discourse.org/t/qq-login-plugin-qq/19718) or [GitHub Issues](https://github.com/fantasticfears/qq_connect/issues).
 
 访问[Discourse Meta 上的主题](https://meta.discourse.org/t/qq-login-plugin-qq/19718)或[GitHub Issues](https://github.com/fantasticfears/qq_connect/issues)。
 
