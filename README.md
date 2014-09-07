@@ -32,6 +32,10 @@ Go to Site Settings's login category, fill in the client id and client secret.
 
 进入站点设置的登录分类，填写 client id 和 client serect。
 
+## Issues / 问题
+
+访问 [Discourse Meta 上的主题](https://meta.discourse.org/t/qq-login-plugin-qq/19718)或 [GitHub Issues](https://github.com/fantasticfears/qq_connect/issues)。
+
 ## Changelog
 
 Current version: 0.1.1
