@@ -11,7 +11,7 @@ class QQAuthenticator < ::Auth::Authenticator
   QQ_SECRET = ENV['QQ_SECRET']
 
   def name
-    'qq_connect'
+    'qq'
   end
 
   def after_authenticate(auth_token)
@@ -47,7 +47,7 @@ class QQAuthenticator < ::Auth::Authenticator
   end
 
   def register_middleware(omniauth)
-    omniauth.provider :qq_connect, :setup => lambda { |env|
+    omniauth.provider :qq, :setup => lambda { |env|
       strategy = env['omniauth.strategy']
       strategy.options[:client_id] = QQ_APP_ID
       strategy.options[:client_secret] = QQ_SECRET
@@ -62,7 +62,7 @@ auth_provider :frame_width => 760,
 
 register_css <<CSS
 
-.btn-social.qq_connect:before {
+.btn-social.qq:before {
   font-family: FontAwesome;
   content: "\\f1d6";
 }
