@@ -58,6 +58,7 @@ end
 auth_provider :frame_width => 760,
               :frame_height => 500,
               :authenticator => QQAuthenticator.new,
+              :title => 'with QQ',
               :background_color => '#51b7ec'
 
 register_css <<CSS
