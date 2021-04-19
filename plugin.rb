@@ -22,6 +22,10 @@ class QQAuthenticator < ::Auth::Authenticator
     name = data['nickname']
     username = data['name']
     qq_uid = auth_token[:uid]
+    
+    puts "qq_uid is %s" % qq_uid
+    puts "name is %s " % name
+    puts "username is %s " % username
 
     current_info = ::PluginStore.get('qq', "qq_uid_#{qq_uid}")
 
