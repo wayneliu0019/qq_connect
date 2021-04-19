@@ -7,6 +7,9 @@ gem 'omniauth-qq', '0.3.0'
 
 class QQAuthenticator < ::Auth::Authenticator
 
+  QQ_APP_ID = ENV['QQ_APP_ID']
+  QQ_SECRET = ENV['QQ_SECRET']
+
   def name
     'qq_connect'
   end
@@ -42,8 +45,8 @@ class QQAuthenticator < ::Auth::Authenticator
   def register_middleware(omniauth)
     omniauth.provider :qq_connect, :setup => lambda { |env|
       strategy = env['omniauth.strategy']
-      strategy.options[:client_id] = SiteSetting.qq_connect_client_id
-      strategy.options[:client_secret] = SiteSetting.qq_connect_client_secret
+      strategy.options[:client_id] = QQ_APP_ID
+      strategy.options[:client_secret] = QQ_SECRET
     }
   end
 end
