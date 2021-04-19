@@ -47,7 +47,7 @@ class QQAuthenticator < ::Auth::Authenticator
   end
 
   def register_middleware(omniauth)
-    omniauth.provider :qq, :setup => lambda { |env|
+    omniauth.provider :qq_connect, :setup => lambda { |env|
       strategy = env['omniauth.strategy']
       strategy.options[:client_id] = QQ_APP_ID
       strategy.options[:client_secret] = QQ_SECRET
